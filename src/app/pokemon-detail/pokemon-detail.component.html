@@ -1,0 +1,4 @@
+<mat-card *ngIf="pokemon" class="pokemon">
+  <img src="/assets/images/{{ pokemon.id | number:'3.0' }}.png" alt="" />
+  <p>{{ pokemon.name.japanese }}</p>
+</mat-card>
