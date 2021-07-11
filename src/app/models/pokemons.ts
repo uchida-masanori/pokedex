@@ -5,7 +5,7 @@ export const POKEMONS = [{
       "japanese": "フシギダネ",
       "chinese": "妙蛙种子",
       "french": "Bulbizarre"
-  },
+    },
     "type": [
       "Grass",
       "Poison"
