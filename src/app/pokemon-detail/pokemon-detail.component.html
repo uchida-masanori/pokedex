@@ -5,5 +5,12 @@
   <p>HP: {{ pokemon.base.HP }}</p>
   <p>こうげき: {{ pokemon.base.Attack }}</p>
   <p>ぼうぎょ: {{ pokemon.base.Defense }}</p>
+  <p>とくこう: {{ pokemon.base['Sp. Attack'] }} </p>
+  <p>とくぼう: {{ pokemon.base['Sp. Defense'] }}</p>
   <p>すばやさ: {{ pokemon.base.Speed }}</p>
+
+  <div style="display: block">
+    <canvas baseChart [datasets]="radarChartData" [options]="radarChartOptions" [labels]="radarChartLabels" [chartType]="radarChartType">
+    </canvas>
+  </div>
 </mat-card>
